@@ -1,0 +1,109 @@
+{
+  "dataset_shape": {
+    "rows": 10000,
+    "columns": 14
+  },
+  "columns": [
+    "Latitude",
+    "Longitude",
+    "Rainfall (mm)",
+    "Temperature (\u00b0C)",
+    "Humidity (%)",
+    "River Discharge (m\u00b3/s)",
+    "Water Level (m)",
+    "Elevation (m)",
+    "Land Cover",
+    "Soil Type",
+    "Population Density",
+    "Infrastructure",
+    "Historical Floods",
+    "Flood Occurred"
+  ],
+  "data_types": {
+    "Latitude": "float64",
+    "Longitude": "float64",
+    "Rainfall (mm)": "float64",
+    "Temperature (\u00b0C)": "float64",
+    "Humidity (%)": "float64",
+    "River Discharge (m\u00b3/s)": "float64",
+    "Water Level (m)": "float64",
+    "Elevation (m)": "float64",
+    "Land Cover": "str",
+    "Soil Type": "str",
+    "Population Density": "float64",
+    "Infrastructure": "int64",
+    "Historical Floods": "int64",
+    "Flood Occurred": "int64"
+  },
+  "numerical_columns": [
+    "Latitude",
+    "Longitude",
+    "Rainfall (mm)",
+    "Temperature (\u00b0C)",
+    "Humidity (%)",
+    "River Discharge (m\u00b3/s)",
+    "Water Level (m)",
+    "Elevation (m)",
+    "Population Density",
+    "Infrastructure",
+    "Historical Floods"
+  ],
+  "categorical_columns": [
+    "Land Cover",
+    "Soil Type"
+  ],
+  "missing_values": {
+    "Latitude": 0,
+    "Longitude": 0,
+    "Rainfall (mm)": 0,
+    "Temperature (\u00b0C)": 0,
+    "Humidity (%)": 0,
+    "River Discharge (m\u00b3/s)": 0,
+    "Water Level (m)": 0,
+    "Elevation (m)": 0,
+    "Land Cover": 0,
+    "Soil Type": 0,
+    "Population Density": 0,
+    "Infrastructure": 0,
+    "Historical Floods": 0,
+    "Flood Occurred": 0
+  },
+  "duplicate_rows": 0,
+  "target_distribution": {
+    "0": 4943,
+    "1": 5057
+  },
+  "unique_values": {
+    "Latitude": 10000,
+    "Longitude": 10000,
+    "Rainfall (mm)": 10000,
+    "Temperature (\u00b0C)": 10000,
+    "Humidity (%)": 10000,
+    "River Discharge (m\u00b3/s)": 10000,
+    "Water Level (m)": 10000,
+    "Elevation (m)": 10000,
+    "Land Cover": 5,
+    "Soil Type": 5,
+    "Population Density": 10000,
+    "Infrastructure": 2,
+    "Historical Floods": 2,
+    "Flood Occurred": 2
+  },
+  "iqr_outlier_flags": {
+    "Latitude": 0,
+    "Longitude": 0,
+    "Rainfall (mm)": 0,
+    "Temperature (\u00b0C)": 0,
+    "Humidity (%)": 0,
+    "River Discharge (m\u00b3/s)": 0,
+    "Water Level (m)": 0,
+    "Elevation (m)": 0,
+    "Population Density": 0,
+    "Infrastructure": 0,
+    "Historical Floods": 0
+  },
+  "notes": [
+    "IQR flags identify values that are statistically unusual, not necessarily errors.",
+    "Source CSV is read only; no rows or values are modified by this script."
+  ]
+}

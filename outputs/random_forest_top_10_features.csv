@@ -1,0 +1,11 @@
+feature,importance
+numeric__Water Level (m),0.09998252089307094
+numeric__Humidity (%),0.09848582963385973
+numeric__River Discharge (m³/s),0.09759918798819882
+numeric__Rainfall (mm),0.09637990940399896
+numeric__Longitude,0.09626669723873983
+numeric__Temperature (°C),0.09612860369173377
+numeric__Population Density,0.0957738282696199
+numeric__Elevation (m),0.09561016203166349
+numeric__Latitude,0.09554713604364853
+numeric__Infrastructure,0.014892115144738836
